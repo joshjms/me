@@ -29,7 +29,7 @@ class BlogMain extends React.Component {
                 </article>
 
                 <div class="border p-5 mx-[10%] w-[40%] bg-base-100 shadow-xl shadow-lg hover:shadow-2xl m-3 hover:-translate-y-3 ease-in-out duration-300 hover:cursor-pointer">
-                    <Link to="/blog/p120920220039"><h1 class="text-xl hover:underline">mod M</h1></Link>
+                    <Link to="/me/blog/p120920220039"><h1 class="text-xl hover:underline">mod M</h1></Link>
                     <p>12 September 2022</p>
                     <p><span className="badge">Programming</span></p>
                 </div>
