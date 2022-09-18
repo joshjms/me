@@ -7,6 +7,7 @@ import P120920220039 from './components/Blogs/p120920220039';
 import reportWebVitals from './reportWebVitals';
 import {
     BrowserRouter,
+    HashRouter,
     Routes,
     Route,
 } from "react-router-dom";
@@ -14,13 +15,13 @@ import {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
-                <Route path="/me/" element={<App />}></Route>
-                <Route path="/me/blog" element={<BlogMain />}></Route>
-                <Route path="/me/blog/P120920220039" element={<P120920220039 />}></Route>
+                <Route path="/" element={<App />}></Route>
+                <Route path="/blog" element={<BlogMain />}></Route>
+                <Route path="/blog/P120920220039" element={<P120920220039 />}></Route>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </React.StrictMode>
 );
 

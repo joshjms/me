@@ -11,7 +11,9 @@ class P120920220039 extends React.Component {
                     <h1 className="text-5xl center-text">
                         <Latex> mod M </Latex>
                     </h1>
-                    <p><span className="badge">Programming</span></p>
+                    <p>
+                        <span className="badge">Programming</span>
+                    </p>
                     <h3> Preface </h3>
                     <p>
                         {" "}
@@ -160,18 +162,31 @@ class P120920220039 extends React.Component {
                             Instead, let $A$ be sorted. Due to the properties of
                             GCD, $gcd(gcd(a, b), gcd(a, c), gcd(b, c)) = gcd(a,
                             b, c)$. Now we can solve this in linear time. Our
-                            total complexity is $O(N log N)$ with our $log N$
-                            being sorting and GCD.
+                            answer is $1$ if and only if $gcd(A_1, A_2, \cdots,
+                            A_N) != 1$ and $2$ if otherwise. Our total
+                            complexity is $O(N log N)$ with our $log N$ being
+                            sorting and GCD.
                         </Latex>
                     </p>
                     <h3> Final Remarks </h3>
                     <p>
-                        Now it's done and I hope you do understand whatever I am talking about. It's nearly 2 AM I'll log out now. 
+                        Now it's done and I hope you do understand whatever I am
+                        talking about. It's nearly 2 AM I'll log out now.
                     </p>
                     <h3> Links </h3>
                     <ul>
-                        <li> <a href = "https://atcoder.jp/contests/arc148/tasks/arc148_a">Problem</a> </li>
-                        <li> <a href = "https://atcoder.jp/contests/arc148/submissions/34787022">My Solution</a> </li>
+                        <li>
+                            {" "}
+                            <a href="https://atcoder.jp/contests/arc148/tasks/arc148_a">
+                                Problem
+                            </a>{" "}
+                        </li>
+                        <li>
+                            {" "}
+                            <a href="https://atcoder.jp/contests/arc148/submissions/34787022">
+                                My Solution
+                            </a>{" "}
+                        </li>
                     </ul>
                 </article>
             </div>
