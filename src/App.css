@@ -1,3 +1,26 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.blink {
+    font-weight: 800;
+    
+    animation-name: blink;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes blink {
+    30% {
+        opacity: 100%;
+    }
+    
+    31% {
+        opacity: 0%;
+    }
+
+    69% {
+        opacity: 0%;
+    }
+
+    70% {
+        opacity: 100%;
+    }
+}
